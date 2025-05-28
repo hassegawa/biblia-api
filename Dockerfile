@@ -17,12 +17,6 @@ RUN apk add --no-cache \
 
 WORKDIR /app
 
-# Copia apenas o requirements.txt primeiro para otimizar o cache da camada
-COPY requirements.txt .
-
-# Instala as dependências Python. --no-cache-dir garante que o cache do pip não seja salvo.
-RUN pip install --no-cache-dir -r requirements.txt
-
 # Copia os arquivos de dados e scripts SQL para o estágio de build
 COPY files/sql/aa.sql /app/files/sql/
 
@@ -47,8 +41,11 @@ RUN mkdir -p /app && adduser -D -u 5678 appuser && chown -R appuser /app
 
 WORKDIR /app
 
-# Copia as dependências Python instaladas do estágio 'builder'
-COPY --from=builder /usr/local/lib/python3.13/site-packages /usr/local/lib/python3.13/site-packages
+# Copia apenas o requirements.txt primeiro para otimizar o cache da camada
+COPY requirements.txt .
+
+# Instala as dependências Python. --no-cache-dir garante que o cache do pip não seja salvo.
+RUN pip install --no-cache-dir -r requirements.txt
 
 # *** NOVIDADE AQUI: Copia o nvi.db gerado do estágio 'builder' ***
 COPY --from=builder /app/nvi.db /app/nvi.db
