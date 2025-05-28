@@ -1,0 +1,8 @@
+services:
+  biblia:
+    image: biblia
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8000:8000

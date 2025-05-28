@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# Database
+nvi.db
+
+# Docker
+*.log
+*.pid
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Compiled files
+build/
+dist/
+*.egg-info/
