@@ -160,3 +160,9 @@ Retorna uma lista de itens de `daily.json` que não foram encontrados no banco d
 - Para acessar a documentação interativa da API, acesse [http://localhost:8000/docs](http://localhost:8000/docs) após subir o container.
 
 ---
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) 
+[Docker hub](https://hub.docker.com/r/hassegawa/biblia)
+
+---
+
+[![Foo](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/hassegawa)    
