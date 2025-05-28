@@ -4,7 +4,7 @@ API REST para consulta de versículos bíblicos, leitura diária e sorteio de ve
 
 ## Como executar em docker
 
-  * docker run -d -p 8000:8000 hassegawa/biblia
+  * docker run -d -p 8000:8000 hassegawa/biblia-api
 
 
 ## Como usar com Docker Compose
