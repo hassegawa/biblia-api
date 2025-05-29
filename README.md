@@ -4,7 +4,8 @@ API REST para consulta de versículos bíblicos, leitura diária e sorteio de ve
 
 ## Como executar em docker
 
-  * docker run -d -p 8000:8000 hassegawa/biblia-api
+  * docker run -d -p 8000:8000 -e ROOT_PATH=/api hassegawa/biblia-api
+  # Use a variável de ambiente ROOT_PATH para definir o prefixo dos endpoints (opcional)
 
 
 ## Como usar com Docker Compose
@@ -23,6 +24,7 @@ API REST para consulta de versículos bíblicos, leitura diária e sorteio de ve
           - .:/app
         environment:
           - TZ=America/Sao_Paulo
+          - ROOT_PATH=/api  # Define o prefixo dos endpoints (opcional)
     ```
 
 2. **Crie o arquivo `Dockerfile`** na raiz do projeto:
@@ -156,12 +158,14 @@ Retorna uma lista de itens de `daily.json` que não foram encontrados no banco d
 
 ## Observações
 
+- Para alterar o prefixo dos endpoints da API (por exemplo, servir em `/api` ao invés de `/`), defina a variável de ambiente `ROOT_PATH`.  
+  Exemplo: `ROOT_PATH=/api`
 - Certifique-se de que os arquivos `nvi.db` (banco SQLite) e `daily.json` estejam presentes na raiz do projeto.
 - Para acessar a documentação interativa da API, acesse [http://localhost:8000/docs](http://localhost:8000/docs) após subir o container.
 
 ---
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) 
-[Docker hub](https://hub.docker.com/r/hassegawa/biblia)
+[Docker hub](https://hub.docker.com/r/hassegawa/biblia-api)
 
 ---
 

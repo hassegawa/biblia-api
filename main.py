@@ -4,8 +4,20 @@ from typing import Optional, List, Dict
 import json
 import random
 import datetime
+import os
 
-app = FastAPI()
+root_path = os.getenv("ROOT_PATH", "/")
+
+app = FastAPI(
+    root_path=root_path,
+    title="NVI Bible API",
+    description="API for accessing the NVI Bible verses",
+    version="1.0.0",
+    contact={
+        "name": "API Support",
+        "url": "https://github.com/hassegawa/biblia-api/issues"
+    }
+)
 
 def get_data_from_db(book, chapter, verse, endverse: Optional[str]) -> List[Dict]:
     conn = sqlite3.connect('nvi.db')
