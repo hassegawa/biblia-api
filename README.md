@@ -4,8 +4,12 @@ API REST para consulta de versículos bíblicos, leitura diária e sorteio de ve
 
 ## Como executar em docker
 
+  * docker run -d -p 8000:8000 hassegawa/biblia-api
+
+  ### caso use um sub-pasta com proxy reverso, ex: /api ; https://seu-site/api/random 
   * docker run -d -p 8000:8000 -e ROOT_PATH=/api hassegawa/biblia-api
-  # Use a variável de ambiente ROOT_PATH para definir o prefixo dos endpoints (opcional)
+    
+  ### Use a variável de ambiente ROOT_PATH para definir o prefixo dos endpoints (opcional)
 
 
 ## Como usar com Docker Compose
