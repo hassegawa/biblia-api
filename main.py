@@ -155,4 +155,9 @@ def check():
     
     return {"errors": errors }
 
+@app.get("/health")
+def health_check():
+    return {"status": "ok"}
+
+
 
