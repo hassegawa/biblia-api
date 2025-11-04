@@ -159,8 +159,18 @@ def check():
 def health_check():
     return {"status": "ok"}
 
+# Carrega as mensagens do arquivo JSON
+with open("beba-agua.json", encoding="utf-8") as f:
+    mensagens = json.load(f)
 
-
-@app.get("/health")
-def health_check():
-    return {"status": "ok"}
+@app.get("/agua/{dia}/{hora}")
+def get_mensagem(dia: str, hora: str):
+    dia = dia.lower()
+    if dia in mensagens["mensagens_diarias"]:
+        dia_data = mensagens["mensagens_diarias"][dia]["mensagens"]
+        if hora in dia_data:
+            return {"hora": hora, "mensagem": dia_data[hora]}
+        else:
+            return {"erro": "Hora não encontrada"}
+    else:
+        return {"erro": "Dia inválido"}

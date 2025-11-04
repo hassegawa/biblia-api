@@ -52,7 +52,7 @@ COPY --from=builder /app/nvi.db /app/nvi.db
 
 # Copia o código da aplicação (main.py e daily.json)
 COPY main.py .
-COPY daily.json .
+COPY *.json .
 
 # Define a porta da aplicação
 EXPOSE 8000

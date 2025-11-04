@@ -1,0 +1,151 @@
+{
+  "mensagens_diarias": {
+    "segunda": {
+      "tema": "Segunda da Energia ⚡",
+      "mensagens": {
+        "07:00": "Bom dia! Comece a semana com energia e um copo d’água.",
+        "08:00": "A água desperta seu corpo e mente. Beba e sinta a diferença!",
+        "09:00": "Hidratar-se é o primeiro passo para um dia produtivo.",
+        "10:00": "Desidratado, seu corpo se cansa mais rápido. Beba antes da fadiga!",
+        "11:00": "Um gole de água agora é um investimento em disposição.",
+        "12:00": "Hidratação antes do almoço melhora a digestão e reduz a fome.",
+        "13:00": "A água mantém seu metabolismo ativo. Continue bebendo!",
+        "14:00": "A energia da tarde vem de dentro — e da sua garrafinha.",
+        "15:00": "Sede é sinal de alerta: recarregue-se com água!",
+        "16:00": "Hidrate-se para manter o corpo em movimento.",
+        "17:00": "Um corpo hidratado trabalha com mais eficiência.",
+        "18:00": "Antes de ir pra casa, tome um copo d’água e renove o ânimo.",
+        "19:00": "Água é combustível natural. Termine o dia com vitalidade!",
+        "20:00": "Respire fundo, beba um gole e sinta a energia fluir.",
+        "21:00": "Reidrate-se para um descanso revigorante.",
+        "22:00": "Boa noite! Um último gole d’água prepara você para amanhã."
+      }
+    },
+    "terca": {
+      "tema": "Terça do Foco 🎯",
+      "mensagens": {
+        "07:00": "Hidratação matinal melhora a concentração. Comece o dia com um copo!",
+        "08:00": "Seu cérebro é 75% água — cuide dele com um gole agora.",
+        "09:00": "Foco e clareza mental vêm da boa hidratação.",
+        "10:00": "Um copo d’água pode ser o segredo da produtividade.",
+        "11:00": "Sede é distração. Elimine-a com um gole!",
+        "12:00": "Beba água antes do almoço e pense com mais clareza.",
+        "13:00": "A falta de água reduz a memória e o raciocínio. Hidrate-se!",
+        "14:00": "Mantenha o foco: beba água antes de sentir sede.",
+        "15:00": "Desidratado, o cérebro desacelera. Água já!",
+        "16:00": "A clareza das ideias vem de um corpo bem cuidado.",
+        "17:00": "Um gole d’água agora mantém sua mente afiada até o fim do dia.",
+        "18:00": "Evite a fadiga mental — hidrate-se antes do jantar.",
+        "19:00": "Atenção plena começa com boa hidratação.",
+        "20:00": "Um corpo hidratado pensa melhor e dorme melhor.",
+        "21:00": "Foco hoje, descanso tranquilo depois. Beba água!",
+        "22:00": "Final do dia com leveza: um último gole antes de dormir."
+      }
+    },
+    "quarta": {
+      "tema": "Quarta do Cuidado 🌿",
+      "mensagens": {
+        "07:00": "Cuide do corpo que cuida de você: comece com água.",
+        "08:00": "A hidratação é o gesto mais simples de amor-próprio.",
+        "09:00": "Seu corpo agradece cada copo d’água que você oferece.",
+        "10:00": "Hidratar-se é cuidar da sua saúde e bem-estar.",
+        "11:00": "A água ajuda seu corpo a eliminar toxinas.",
+        "12:00": "Um copo d’água antes da refeição ajuda na digestão.",
+        "13:00": "Cuidar de si começa com pequenos hábitos. Hidratar-se é um deles.",
+        "14:00": "Cuidar do corpo é cuidar da mente. Beba água agora!",
+        "15:00": "A hidratação ajuda a regular a temperatura corporal.",
+        "16:00": "Um corpo bem cuidado é sinônimo de equilíbrio.",
+        "17:00": "A água mantém suas células vivas e funcionando bem.",
+        "18:00": "Cuidar-se é um ato de respeito próprio. Hidrate-se!",
+        "19:00": "Água: o cuidado invisível que faz toda a diferença.",
+        "20:00": "Hidratar-se é um carinho diário com seu corpo.",
+        "21:00": "Termine o dia com gratidão e um copo d’água.",
+        "22:00": "Seu corpo cuidou de você o dia todo. Cuide dele agora."
+      }
+    },
+    "quinta": {
+      "tema": "Quinta da Saúde 💪",
+      "mensagens": {
+        "07:00": "A saúde começa com um copo d’água logo cedo.",
+        "08:00": "A água fortalece o coração e ajuda na circulação.",
+        "09:00": "Sem água, o sangue engrossa e o corpo sofre.",
+        "10:00": "Beber água ajuda os rins a trabalharem melhor.",
+        "11:00": "A hidratação previne dores de cabeça e cansaço.",
+        "12:00": "Água: o remédio natural mais eficaz que existe.",
+        "13:00": "Um corpo hidratado é menos propenso a doenças.",
+        "14:00": "A falta de água compromete sua imunidade. Beba agora!",
+        "15:00": "Hidratação é sinônimo de vitalidade.",
+        "16:00": "A água ajuda o corpo a se recuperar após o esforço.",
+        "17:00": "Cuide da sua saúde: beba antes da sede aparecer.",
+        "18:00": "A boa hidratação mantém o equilíbrio do corpo.",
+        "19:00": "Um copo d’água é um gesto simples de prevenção.",
+        "20:00": "Hidratar-se é fortalecer seu sistema imunológico.",
+        "21:00": "A saúde é construída nos pequenos hábitos. Hidratar-se é um deles.",
+        "22:00": "Durma em paz sabendo que cuidou do seu corpo hoje."
+      }
+    },
+    "sexta": {
+      "tema": "Sexta da Beleza ✨",
+      "mensagens": {
+        "07:00": "Beleza vem de dentro — e começa com água.",
+        "08:00": "A hidratação dá brilho à pele e vitalidade ao olhar.",
+        "09:00": "Um corpo hidratado reflete equilíbrio e saúde.",
+        "10:00": "A falta de água acelera o envelhecimento da pele.",
+        "11:00": "Beba água e mantenha sua pele firme e saudável.",
+        "12:00": "Cabelos fortes e unhas bonitas dependem da sua hidratação.",
+        "13:00": "Hidratar-se é um segredo de beleza natural.",
+        "14:00": "Pele bonita é pele hidratada — por dentro e por fora.",
+        "15:00": "Beber água ajuda a eliminar impurezas da pele.",
+        "16:00": "Um gole d’água é um gesto de autocuidado e beleza.",
+        "17:00": "A beleza real é sustentada pela saúde. Hidrate-se!",
+        "18:00": "Sexta linda, pele linda — beba água!",
+        "19:00": "Hidratação é o melhor cosmético que existe.",
+        "20:00": "A água mantém o brilho da sua pele natural.",
+        "21:00": "Antes de dormir, um gole d’água renova sua beleza.",
+        "22:00": "Durma bem, hidrate-se bem, desperte ainda mais radiante."
+      }
+    },
+    "sabado": {
+      "tema": "Sábado da Leveza ☀️",
+      "mensagens": {
+        "07:00": "Acorde leve e comece o dia com um copo d’água fresca.",
+        "08:00": "Água é equilíbrio, é leveza. Beba e respire fundo.",
+        "09:00": "A leveza do corpo vem de dentro — e da hidratação certa.",
+        "10:00": "Deixe a água limpar o que não serve mais.",
+        "11:00": "Um corpo leve é aquele que se cuida. Beba água!",
+        "12:00": "Hidratar-se é libertar-se do cansaço acumulado.",
+        "13:00": "Um copo d’água renova a energia do seu sábado.",
+        "14:00": "Leveza é manter o corpo e a mente em harmonia.",
+        "15:00": "Um gole d’água ajuda seu corpo a eliminar toxinas.",
+        "16:00": "Respire, beba água e sinta o equilíbrio retornar.",
+        "17:00": "A leveza é construída em cada gole consciente.",
+        "18:00": "Antes de sair, lembre-se de se hidratar.",
+        "19:00": "Sábado à noite? Leve com você sua garrafinha!",
+        "20:00": "Aproveite o descanso, mas não esqueça da água.",
+        "21:00": "Um gole final para encerrar o dia leve.",
+        "22:00": "Leveza e descanso — hidratação completa!"
+      }
+    },
+    "domingo": {
+      "tema": "Domingo da Renovação 🌙",
+      "mensagens": {
+        "07:00": "Domingo é dia de renovar corpo e mente — comece com água.",
+        "08:00": "A água purifica e renova suas energias.",
+        "09:00": "Cada gole é uma nova chance de se cuidar.",
+        "10:00": "Recarregue-se para a semana: hidrate-se com carinho.",
+        "11:00": "A água limpa por dentro o que a alma precisa por fora.",
+        "12:00": "Domingo é dia de equilíbrio. Beba água, respire e relaxe.",
+        "13:00": "A renovação do corpo começa com a hidratação.",
+        "14:00": "Prepare-se para a semana com leveza e boa hidratação.",
+        "15:00": "A água revitaliza suas células e sua disposição.",
+        "16:00": "Renove-se a cada gole — é simples e poderoso.",
+        "17:00": "A água é símbolo de vida nova. Beba e sinta-se bem.",
+        "18:00": "Domingo tranquilo, corpo renovado, garrafinha cheia.",
+        "19:00": "A hidratação te prepara para uma semana incrível.",
+        "20:00": "Um copo d’água é o início da sua renovação diária.",
+        "21:00": "Feche o dia com gratidão e um gole d’água.",
+        "22:00": "Boa noite! Amanhã começa com nova energia — e um copo d’água."
+      }
+    }
+  }
+}
